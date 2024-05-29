@@ -23,3 +23,4 @@
       src: /opt/apache-maven-3.9.2-bin.tar.gz
       dest: /opt 
       remote_src: yes
+# ansible-playbook -i </opt/hosts> jenkins-master-setup.yaml --check
