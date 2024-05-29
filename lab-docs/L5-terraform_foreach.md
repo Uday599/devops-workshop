@@ -11,4 +11,4 @@ for_each = toset(["master", "slave"])
    }
 ```
 
-after this [terraform v4 file]() looks like this
+after this [terraform v4 file](https://github.com/Uday599/devops-workshop/blob/main/terraform_code/V4-EC2-With_VPC_for_each.tf) looks like this
