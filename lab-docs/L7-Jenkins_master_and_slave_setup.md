@@ -8,8 +8,8 @@
 2. Provide the below info to add credentials   
    kind: `ssh username with private key`  
    Scope: `Global`     
-   ID: `maven_slave`    
-   Username: `ec2-user`  
+   ID: `maven_slave-cred`    
+   Username: `ubuntu`  
    private key: `dpo.pem key content`  
 
 ### Add node 
@@ -17,8 +17,8 @@
 1. Goto Manage Jenkins --> Manage nodes and clouds --> New node --> Permanent Agent    
 2. Provide the below info to add the node   
    Number of executors: `3`   
-   Remote root directory: `/home/ec2-user/jenkins`  
-   Labels: `maven`  
+   Remote root directory: `/home/ubuntu/jenkins`  
+   Labels: `maven-slave`  
    Usage: `Use this node as much as possible`  
    Launch method: `Launch agents via SSH`  
         Host: `<Private_IP_of_Slave>`  
