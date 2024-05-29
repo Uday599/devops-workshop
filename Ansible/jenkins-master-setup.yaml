@@ -31,3 +31,5 @@
     service: 
       name: jenkins 
       enabled: yes 
+
+# ansible-playbook -i </opt/hosts> jenkins-master-setup.yaml --check
