@@ -17,7 +17,7 @@
 1. Goto Manage Jenkins --> Manage nodes and clouds --> New node --> Permanent Agent    
 2. Provide the below info to add the node   
    Number of executors: `3`   
-   Remote root directory: `/home/ubuntu/jenkins` # Jenkins dir will create by itslef 
+   Remote root directory: `/home/ubuntu/jenkins` # Dir will create itself
    Labels: `maven-slave`  
    Usage: `Use this node as much as possible`  
    Launch method: `Launch agents via SSH`  
