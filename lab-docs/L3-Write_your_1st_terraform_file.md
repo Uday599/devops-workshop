@@ -34,4 +34,4 @@ These should be defined in the resource block
  }
 ```
 
-So the final file looks [like this](v1-ec2.tf)
+So the final file looks [like this](https://github.com/Uday599/devops-workshop/blob/main/terraform_code/V1-EC2.tf) 
