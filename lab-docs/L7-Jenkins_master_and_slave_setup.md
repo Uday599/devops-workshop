@@ -25,4 +25,4 @@
         Credentials: `<Jenkins_Slave_Credentials>`     
         Host Key Verification Strategy: `Non verifying Verification Strategy`     
    Availability: `Keep this agent online as much as possible`  
-3. /home/ubuntu/jenkins directory will be created automatically
+3. /home/ubuntu/jenkins  -> directory will be created automatically
