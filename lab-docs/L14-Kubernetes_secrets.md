@@ -8,7 +8,7 @@
 
 2. To pull an image from jfrog at the docker level, we should log into jfrog using username and password   
 ```sh 
- docker login https://valaxy05.jfrog.io
+ docker login https://spidy03.jfrog.io
 ```
 
 3. genarate encode value for ~/.docker/config.json file 
