@@ -20,6 +20,7 @@
    ```sh 
    helm repo list
    helm repo add stable https://charts.helm.sh/stable
+   helm repo list
    helm repo update
    helm search repo <helm-chart>
    helm search repo stable
@@ -27,20 +28,22 @@
 
 1. Install mysql charts on Kubernetes 
    ```sh 
-   helm install demo-mysql stable/mysql 
+   helm install demo-mysql stable/mysql
+   helm list
+   kubectl get all
    ```
-1. To pull the package from repo to local 
+1. To pull the package/manigest files from repo to local 
    ```sh 
    helm pull stable/mysql 
    ```
 
-  *Once you have downloaded the helm chart, it comes as a zip file. You should extract it.* 
+  *Once you have downloaded the helm chart, it comes as a zip file. You should extract it , using tar -xvzf <tar_file>* 
 
   In this directory, you can find 
-  - templates
-  - values.yaml
-  - README.md
-  - Chart.yaml
+  - templates      # folder where actual manifest files are saved.
+  - values.yaml     # variables kind of data will be stored
+  - README.md      # detalis about your chart
+  - Chart.yaml      # version of helm chart
 
   If you'd like to change the chart, please update your templates directory  and modify the version (1.6.9 to 1.7.0) in the chart.yaml
 
