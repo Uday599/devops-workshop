@@ -24,7 +24,8 @@
 4. Install the prometheus with premotheus stack, grafana also installed.
 
    ```sh
-    helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring
+    helm install prometheus prometheus-grafana-community/kube-prometheus-stack --namespace monitoring
+    helm pull prometheus-grafana-community/kube-prometheus-stack
    ```
 
 5. Above helm create all services as ClusterIP. To access Prometheus out side of the cluster, we should change the service type load balancer
