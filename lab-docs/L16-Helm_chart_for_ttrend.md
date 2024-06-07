@@ -23,6 +23,7 @@
    ```
 3. Change the version number in the 
    ```
+   # delete all resources if created earlier - kubectl delete ns valaxy
    helm install ttrend ttrend-0.1.0.tgz
    helm list
    ```
