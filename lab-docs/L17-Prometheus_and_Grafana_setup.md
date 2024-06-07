@@ -21,7 +21,7 @@
    helm repo list
    ```
 
-4. Install the prometheus
+4. Install the prometheus with premotheus stack, grafana also installed.
 
    ```sh
     helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring
