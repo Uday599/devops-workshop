@@ -2,7 +2,7 @@
 
 1. To create a helm chart template 
    ```sh 
-   go to /home/ubuntu
+   go to /home/ubuntu  in maven-slave
    helm create ttrend
    ```
 
