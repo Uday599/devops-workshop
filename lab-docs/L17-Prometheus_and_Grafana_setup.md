@@ -12,7 +12,7 @@
 
 2. Add Prometheus helm chart repository
    ```sh
-   helm repo add prometheus-community https://prometheus-community.github.io/helm-charts 
+   helm repo add prometheus-grafana-community https://prometheus-community.github.io/helm-charts 
    ```
 
 3. Update the helm chart repository
